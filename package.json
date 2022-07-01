@@ -1,0 +1,36 @@
+{
+	"name": "vue-svg-to-component",
+	"version": "1.0.0",
+	"description": "Convert svg files to the vue components",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint ./src/. --fix"
+	},
+	"keywords": [
+		"svg",
+		"icon",
+		"vue",
+		"convert",
+		"component"
+	],
+	"author": "faruknf",
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^9.2.0"
+	},
+	"bin": {
+		"vue-svg-to-component": "./index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/faruknf/vue-svg-to-component.git"
+	},
+	"devDependencies": {
+		"eslint": "^8.15.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"prettier": "^2.6.2"
+	}
+}
